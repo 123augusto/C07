@@ -1,12 +1,11 @@
- Banco de Dados: Festival de Inovação do Inatel
+Integrantes do Grupo: Augusto Leite Del' Carlo Carneiro, 866, turma L1; Vitor Augusto do Couto, 536, turma L2.
 
-Integrantes do Grupo:
-Augusto Leite Del' Carlo Carneiro, 866 turma L1
-VITOR AUGUSTO DO COUTO, 536 turma L2
+Sobre o Projeto: Neste projeto, criamos um banco de dados para organizar o Festival de Inovação do Inatel, um evento de dois dias com palestras, oficinas e mesas-redondas para alunos e a comunidade externa.
 
+Usamos o MySQL 8 para cadastrar participantes, palestrantes, espaços, atividades, inscrições e credenciais. Implementamos a herança entre Pessoa, Participante e Palestrante e registramos os pré-requisitos entre as atividades.
 
-Sobre o Projeto:
-Este projeto consiste na modelagem e implementação de um banco de dados relacional para gerenciar o Festival de Inovação do Inatel, um evento de dois dias que engloba palestras, oficinas e mesas-redondas para alunos e a comunidade externa.
+Na segunda entrega, adicionamos uma Procedure para registrar o check-in, uma View para consultar o resumo das atividades, um Trigger para preencher a data da inscrição quando ela não é informada e uma Function para calcular o percentual de presença.
 
-O sistema foi estruturado para organizar a infraestrutura e a logística do evento. Ele gerencia o cadastro de palestrantes e participantes, a alocação de atividades nos espaços físicos do campus e o controle de emissão das credenciais de acesso. Além disso, o banco de dados controla as inscrições e valida os pré requisitos das atividades, garantindo, o bloqueio de inscrições em oficinas avançadas caso o participante não tenha concluído o módulo introdutório.
+Também criamos dois usuários com uma ROLE em comum para definir suas permissões de acesso. Fizemos consultas com JOIN usando os relacionamentos 1:1, 1 e N para buscar informações sobre participantes, credenciais, espaços e atividades.
 
+Para demonstrar o funcionamento do banco, inserimos pelo menos cinco registros fictícios em cada tabela e usamos comandos de inserção, atualização e exclusão. As funcionalidades e os motivos de cada implementação estão descritos na documentação do projeto.
