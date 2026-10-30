@@ -8,4 +8,4 @@ Na segunda entrega, adicionamos uma Procedure para registrar o check-in, uma Vie
 
 Também criamos dois usuários com uma ROLE em comum para definir suas permissões de acesso. Fizemos consultas com JOIN usando os relacionamentos 1:1, 1 e N para buscar informações sobre participantes, credenciais, espaços e atividades.
 
-Para demonstrar o funcionamento do banco, inserimos pelo menos cinco registros fictícios em cada tabela e usamos comandos de inserção, atualização e exclusão. As funcionalidades e os motivos de cada implementação estão descritos na documentação do projeto.
+Para demonstrar o funcionamento do banco, inserimos pelo menos cinco registros fictícios em cada tabela e usamos comandos de inserção, atualização e exclusão.
